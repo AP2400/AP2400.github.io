@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #a7c3df;
 }
 
 .navbar-collapse {
@@ -39,12 +39,12 @@ h1 {
   font-size: 2rem;
   padding: 15px 0;
   font-family: 'Rubik Dirt', cursive;
-  color: #031daf96;
+  color: #15648e;
 }
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #e7dddd;
+  color: #55561a;
 }
 
 .seccion-texto {
@@ -58,12 +58,13 @@ h1 {
 }
 
 .texto-negro {
-  color: black;
+  color: #15648e;
 }
 
 .texto-blanco {
   color: white;
 }
+
 
 /* Seccion Hero */
 
@@ -85,7 +86,7 @@ h1 {
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color: #615151;
+  color: #595161;
 }
 
 /* Sobre mi */
@@ -117,14 +118,14 @@ h1 {
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
+  color: #4f214d;
+  background-color: #f0edf0;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #4e002d;
+  background-color: #e2ceea;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -284,7 +285,9 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(47, 157, 207);
+  /*background-color: rgb(47, 157, 207);*/
+  background-color:#a7c3df;
+  /*background-color: #a7c3df,  #a3ccb1 ;*/
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -296,7 +299,7 @@ h1 {
 }
 
 .contacto .descripcion {
-  color: white;
+  color: rgb(134, 27, 108);
   font-size: 1.2rem;
 }
 
@@ -312,7 +315,7 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
+  background-color: #a3ccb1;
   color: black;
 }
 
@@ -343,7 +346,9 @@ footer {
   padding: 20px;
   margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
-  color: #1e1732;
+  /*color: #262440;*/
+  color: #1a3156;
+  font-style: oblique;
 }
 
 .iconos-redes-sociales a {
@@ -366,12 +371,12 @@ footer {
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: none;
+  border: 2px solid rgb(158, 29, 170);
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: rgb(158, 29, 170);
 }
 
 .derechos-de-autor {
